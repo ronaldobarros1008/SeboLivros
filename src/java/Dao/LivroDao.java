@@ -3,10 +3,6 @@ package Dao;
 import Model.Livro;
 import java.util.List;
  
-/**
-*
-* @author José Alexandre
-*/
 public interface LivroDao {
  
 public void save(Livro livro);

@@ -3,12 +3,7 @@ package Utils;
 import Model.Livro;
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.SessionFactory;
- 
-/**
-* Hibernate Utility class with a convenient method to get Session Factory object.
-*
-* @author José Alexandre
-*/
+
 public class HibernateUtil {
  
 private static SessionFactory sessionFactory;

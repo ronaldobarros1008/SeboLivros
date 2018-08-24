@@ -5,10 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
  
-/**
-*
-* @author José Alexandre
-*/
 @Entity
 public class Livro implements Serializable {
  

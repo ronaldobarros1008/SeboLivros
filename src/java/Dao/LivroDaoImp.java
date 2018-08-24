@@ -6,10 +6,6 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
  
-/**
-*
-* @author José Alexandre
-*/
 public class LivroDaoImp implements LivroDao {
  
 public void save(Livro livro) {
